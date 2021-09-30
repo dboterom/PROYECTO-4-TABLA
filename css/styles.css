@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(/assets/fondo.png);
+    background-repeat: repeat;
+    height: 100vh;
+    width: 100vw;
+}
+
+.main-container{
+    height: 100%;
+    width: 100%;
+}
+
+.title-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.actions-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.arrow{
+    height: 80px;
+    width: 80px;
+    background-color: darkgray;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.arrow > img{
+    height: 50px;
+    width: 50px;
+}
+
+.arrow:active{
+    background-color: aqua;
+}
+
+.table-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-collapse: collapse;
+    margin-top: 50px;
+}
+
+tr > th{
+    width: 80px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+}
+
+tr > td{
+    width: 80px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid black;
+}
+
+#monday-container{
+    background-color: rgb(206, 30, 53);
+}
+
+#tuesday-container{
+    background-color: fuchsia;
+}
+
+#wednesday-container{
+    background-color: rgb(177, 69, 254);
+}
+
+#thursday-container{
+    background-color: rgb(17, 8, 184);
+}
+
+#friday-container{
+    background-color:rgb(30, 151, 164)
+}
+
+#saturday-container{
+    background-color: forestgreen;
+}
+
+#sunday-container{
+    background-color: lightsalmon;
+}
+
+#one-container{
+    background-color: lightslategrey;
+}
+
+#two-container{
+    background-color: lightslategrey;
+}
+
+#three-container{
+    background-color: lightslategrey;
+}
+
+#four-container{
+    background-color: lightslategrey;
+}
+
+#five-container{
+    background-color: lightslategrey;
+}
+
+#six-container{
+    background-color: lightslategrey;
+}
+
+#seven-container{
+    background-color: lightslategrey;
+}
+
+#eight-container{
+    background-color: lightslategrey;
+}
+
+#nine-container{
+    background-color: lightslategrey;
+}
+
+#ten-container{
+    background-color: lightslategrey;
+}
+
+#eleven-container{
+    background-color: lightslategrey;
+}
+
+#twelve-container{
+    background-color: lightslategrey;
+}
+
+#thirteen-container{
+    background-color: lightslategrey;
+}
+
+#fourteen-container{
+    background-color: lightslategrey;
+}
+
+#fiveteen-container{
+    background-color: lightslategrey;
+}
+
+#sixteen-container{
+    background-color: lightslategrey;
+}
+
+#seventeen-container{
+    background-color: lightslategrey;
+}
+
+#eighteen-container{
+    background-color: rgb(44, 45, 46);
+    color: white;
+}
+
+#nineteen-container{
+    background-color: lightslategrey;
+}
+
+#twenty-container{
+    background-color: lightslategrey;
+}
+
+#twentyone-container{
+    background-color: lightslategrey;
+}
+
+#twentytwo-container{
+    background-color: lightslategrey;
+}
+
+#twentythree-container{
+    background-color: lightslategrey;
+}
+
+#twentyfour-container{
+    background-color: lightslategrey;
+}
+
+#twentyfive-container{
+    background-color: lightslategrey;
+}
+
+#twentysix-container{
+    background-color: lightslategrey;
+}
+
+#twentyseven-container{
+    background-color: lightslategrey;
+}
+
+#twentyeight-container{
+    background-color: lightslategrey;
+}
+
+#twentynine-container{
+    background-color: rgb(20, 116, 133);
+    color: white;
+}
+
+#thirty-container{
+    background-color: lightslategrey;
+}
+
+#thirtyone-container{
+    background-color: lightslategrey;
+}
